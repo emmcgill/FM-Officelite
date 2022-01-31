@@ -1,53 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Officelite coming soon site</title>
-</head>
-<body> 
-  A simple solution to complex tasks is coming soon
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles/index/common.css" />
+    <link rel="stylesheet" href="styles/index/header.css" />
+    <link rel="stylesheet" href="styles/index/hero.css" />
+    <link rel="stylesheet" href="styles/index/plan-information.css" />
+    <link rel="stylesheet" href="styles/index/countdown-wrapper.css" />
 
-  Say goodbye to inefficient juggling of multiple apps, teams, and projects. Officelite is the new 
-  collaboration platform built with an intuitive interface to improve productivity.
-
-  Get Started
-
-  Basic
-  Free
-  Up to 5 users for free
-  Basic document collaboration
-  2 gb storage
-  Great security and support
-  Try for Free
-
-  Pro
-  $9.99
-  Per user, billed monthly
-  All essential integrations
-  50 gb storage
-  More control and insights
-  Try for Free
-
-  Ultimate
-  $19.99
-  Per user, billed monthly
-  Robust work management
-  100 gb storage
-  VIP support
-  Try for Free
-
-  <!-- If you're choosing to make this date dynamic, set it to 30 days in the future from the moment the visitor views the page -->
-  Coming 4 Nov 2020
-
-  <!-- If you're choosing to make this timer dynamic, have it countdown from the date you set above -->
-  47 Days
-  07 Hours
-  56 Min
-  14 Sec
-  Get Started
-</body>
+    <title>Frontend Mentor | Officelite coming soon site</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="assets/shared/logo.svg" alt="#" />
+      </header>
+      <section class="hero">
+        <div class="hero-info-wrapper">
+          <h1 id="hero-title">
+            A simple solution to complex tasks is coming soon
+          </h1>
+          <p id="hero-description">
+            Say goodbye to inefficient juggling of multiple apps, teams, and
+            projects. Officelite is the new collaboration platform built with an
+            intuitive interface to improve productivity.
+          </p>
+          <a href="sign-up.html" class="get-started">Get Started</a>
+        </div>
+        <div class="chart-wrapper">
+          <img src="assets/home/illustration-charts.svg" alt="#" />
+        </div>
+      </section>
+      <div class="plan-information-wrapper">
+        <section class="plan-information">
+          <div class="plan-wrapper basic">
+            <div class="top">
+              <p class="plan-title">Basic</p>
+              <h2 class="price">Free</h2>
+              <p class="price-details">Up to 5 users for free</p>
+            </div>
+            <div class="bottom">
+              <p class="plan-details">Basic document collaboration</p>
+              <p class="storage"><span>2 gb </span>storage</p>
+              <p class="support">Great security and support</p>
+              <a href="sign-up.html" class="try-btn">Try for Free</a>
+            </div>
+          </div>
+          <div class="plan-wrapper pro">
+            <div class="top">
+              <p class="plan-title">Pro</p>
+              <h2 class="price">$9.99</h2>
+              <p class="price-details">Per user, billed monthly</p>
+            </div>
+            <div class="bottom">
+              <p class="plan-details">All essential integrations</p>
+              <p class="storage"><span>50 gb</span> storage</p>
+              <p class="support">More control and insights</p>
+              <a href="sign-up.html" class="try-btn">Try for Free</a>
+            </div>
+          </div>
+          <div class="plan-wrapper ultimate">
+            <div class="top">
+              <p class="plan-title">Ultimate</p>
+              <h2 class="price">$19.99</h2>
+              <p class="price-details">Per user, billed monthly</p>
+            </div>
+            <div class="bottom">
+              <p class="plan-details">Robust work management</p>
+              <p class="storage"><span>100 gb</span> storage</p>
+              <p class="support">VIP support</p>
+              <a href="sign-up.html" class="try-btn">Try for Free</a>
+            </div>
+          </div>
+          <div class="countdown-wrapper">
+            <!-- If you're choosing to make this date dynamic, set it to 30 days in the future from the moment the visitor views the page -->
+            <h3 class="coming-soon">
+              Coming <span id="release-date">4 Nov 2020</span>
+            </h3>
+            <!-- If you're choosing to make this timer dynamic, have it countdown from the date you set above -->
+            <div class="countdown">
+              <div class="days">
+                <h4 class="days-counter">47</h4>
+                <p class="days-title">Days</p>
+              </div>
+              <div class="hours">
+                <h4 class="hours-counter">07</h4>
+                <p class="hours-title">Hours</p>
+              </div>
+              <div class="minutes">
+                <h4 class="minutes-counter">56</h4>
+                <p class="minutes-title">Min</p>
+              </div>
+              <div class="seconds">
+                <h4 class="seconds-counter">14</h4>
+                <p class="seconds-title">Sec</p>
+              </div>
+            </div>
+            <a href="sign-up.html" class="get-started">Get Started</a>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
 </html>

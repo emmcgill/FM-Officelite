@@ -1,0 +1,117 @@
+:root {
+    --clr-dark-blue-5175FF: #5175FF;
+    --clr-light-blue-829CFF: #829CFF;
+    --clr-black-blue-333950: #333950;
+    --clr-black-25293A: #25293A;
+    --clr-gray-747B95: #747B95;
+    --clr-salmon-F05B5B: #F05B5B;
+    --ff-kumbh-sans: 'Kumbh Sans', sans-serif;
+    --h1-fs: 56px;
+    --h1-lh: 64px;
+    --h1-fw: 700;
+    --h2-fs: 20px;
+    --h2-lh: 28px;
+    --h2-fw: 700;
+    --h3-fs: 16px;
+    --h3-lh: 48px;
+    --h3-fw: 700;
+    --body1-fs: 18px;
+    --body1-lh: 28px;
+    --body1-fw: 400;
+    --body2-fs: 16px;
+    --body2-lh: 28px;
+    --body2-fw: 400; 
+}
+
+.plan-information-wrapper {
+    background: linear-gradient( to bottom, #fafafa 40%, var(--clr-black-25293A) 40%);
+}
+
+.plan-information {
+    position: relative;
+    max-width: 375px;
+    padding: 0 1.5rem;
+    background-image: url(/assets/home/bg-pattern-footer.svg);
+    background-position-x: 50%;
+    background-position-y: -2290px;
+    background-size: 100vh;
+}
+
+.plan-information > .plan-wrapper {
+    margin-bottom: 2rem;
+    padding: 2.5rem 0 4rem 0;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.plan-information > .plan-wrapper > .top {
+    color: var(--clr-black-blue-333950);
+}
+
+.plan-information > .plan-wrapper > .top > .plan-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 3.75rem;
+}
+
+.plan-information > .plan-wrapper > .top > .price {
+    font-size: 52px;
+    margin-bottom: 1rem;
+}
+
+.plan-information > .plan-wrapper > .top > .price-details {
+    font-size: 14px;
+    margin-bottom: 3.75rem;
+}
+
+.plan-information > .plan-wrapper > .bottom {
+    color: var(--clr-gray-747B95);
+    font-weight: 300;
+    font-size: 14px;
+    
+}
+
+.plan-information > .plan-wrapper > .bottom > * {
+    margin-bottom: 1.5rem;
+}
+
+.plan-information > .plan-wrapper > .bottom > p > span {
+    text-transform: uppercase;
+}
+
+.plan-information > .plan-wrapper > .bottom > .support {
+    margin-bottom: 3.25rem;
+}
+
+.plan-information > .plan-wrapper > .bottom > a {
+    background-color: #dae1fd;
+    color: var(--clr-dark-blue-5175FF);
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1.1rem 2rem;
+    border-radius: 50px;
+}
+
+.plan-information > .pro {
+    background-color: #5175FF;
+    background-image: url(/assets/home/bg-pattern-pricing.svg);
+    background-position: center bottom 5%;
+}
+
+.plan-information > .ultimate {
+    margin-bottom: 6rem;
+}
+
+.plan-information > .pro > .top {
+    color: #fff;
+}
+
+.plan-information > .pro > .bottom {
+    color: #dae1fd;
+    font-weight: 200;
+}
